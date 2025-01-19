@@ -66,7 +66,7 @@ scanf("%d",&p[i]);
 knapsack(m,n,w,p); 
 getch(); 
 } 
-Void  knapsack(int m,int n,int w[], int p[]) 
+void  knapsack(int m,int n,int w[], int p[]) 
 { 
 double profit=0,rc=m,i;  
 double x[10]; 
